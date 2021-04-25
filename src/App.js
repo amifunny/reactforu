@@ -14,7 +14,7 @@ function App() {
 
 		(function(){
 		  s1.async=true;
-		  s1.src=process.env.TAWK_SRC;
+		  s1.src="https://embed.tawk.to/60856dc85eb20e09cf366679/1f44j9mn8";
 		  s1.charset='UTF-8';
 		  s1.setAttribute('crossorigin','*');
 		  s0.parentNode.insertBefore(s1,s0);

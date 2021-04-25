@@ -32,8 +32,8 @@ const Faq = () => {
     }
   ]
 
-  const faqList = faqObj.map( item=>(
-      <Accordion className="faq-item">
+  const faqList = faqObj.map( (item,index)=>(
+      <Accordion key={index} className="faq-item">
         <Card>
           <Accordion.Toggle as={Card.Header} className="faq-ques" eventKey="0">
             {item.ques}
