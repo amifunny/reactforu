@@ -1,0 +1,21 @@
+.faq-container{
+	background:#efefef;
+	padding:1rem 0;
+}
+
+.faq-item{
+    margin: auto;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.faq-ques{
+	cursor: pointer;
+	color: #6c9bf5;
+	font-weight: bold;
+}
+
+.faq-ans{
+    background: #e4ebf1;
+    color: #0067bf;
+}
